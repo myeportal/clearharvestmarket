@@ -1,0 +1,57 @@
+{
+  "roles": {
+    "superadmin": {
+      "label": "Founding Father only",
+      "capabilities": [
+        "manage_secrets",
+        "approve_automation_channels",
+        "override_payment_routing",
+        "create_agents",
+        "edit_global_strategy",
+        "view_all_leads"
+      ]
+    },
+    "admin": {
+      "label": "Owner",
+      "capabilities": [
+        "run_campaigns",
+        "edit_content_queue",
+        "review_leads",
+        "manage_offer_pages",
+        "launch_approved_workflows"
+      ]
+    }
+  },
+  "agents": [
+    "seo-agent",
+    "video-agent",
+    "autopost-agent",
+    "leadgen-agent",
+    "funnel-agent",
+    "payments-agent"
+  ],
+  "channels": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "email",
+    "website"
+  ],
+  "funnels": [
+    "visitor-to-order",
+    "local-to-preorder",
+    "recipe-buyer-to-bundle",
+    "partner-to-catering",
+    "social-to-lead-to-offer"
+  ],
+  "payments": [
+    "hotplate-food-orders",
+    "stripe-recipes",
+    "stripe-future-direct-checkout"
+  ],
+  "automation": {
+    "defaultMode": "approval-first",
+    "allowAutoPublish": false,
+    "allowPaidActionsWithoutApproval": false
+  }
+}

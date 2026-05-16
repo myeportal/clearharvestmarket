@@ -15,8 +15,13 @@ This version preserves and builds on the current live brand footprint:
 - `order.html` — stronger ordering hub with Hotplate, preorders, bundles, and product categories
 - `recipes.html` — $1 recipe shop and recipe micro-products
 - `partners.html` — catering, hiring, local vendor, retail shelf, and business partnerships
+- `about.html` — fuller family brand story
+- `juice.html` — expanded live-menu juice page
+- `contact-us.html` — cleaner contact and routing page
 - `checkout.html` — general checkout scaffold for future store use
 - `thank-you.html` — post-purchase / follow-up page
+- `admin/index.html` — owner admin dashboard
+- `superadmin/index.html` — top-level superadmin dashboard
 
 ## APIs
 - `api/create-checkout-session.js` — cart-based Stripe scaffold
@@ -24,6 +29,10 @@ This version preserves and builds on the current live brand footprint:
 - `api/send-order-email.js` — order follow-up scaffold
 - `api/send-vendor-inquiry.js` — partner / hiring / vendor inquiry scaffold
 - `api/subscribe.js` — newsletter and opening updates scaffold
+- `api/admin-status.js` — admin package status/config feed
+- `api/admin-session.js` — admin/superadmin role-check scaffold
+- `api/marketing-command.js` — marketing automation action router scaffold
+- `api/lead-intake.js` — lead classification and funnel recommendation scaffold
 
 ## Real brand details integrated
 - Phone: `530-813-5262`
@@ -39,3 +48,6 @@ This version preserves and builds on the current live brand footprint:
 - recipe shop with $1 recipe micro-checkout concept
 - better partner / vendor / catering growth lanes
 - stronger setup notes for long-term success, not just a contact form
+- admin/superadmin marketing package scaffolding
+- role-based automation model for campaigns, SEO, video, autoposting, lead gen, funnels, and payments
+- config + API structure ready for deeper backend integration
