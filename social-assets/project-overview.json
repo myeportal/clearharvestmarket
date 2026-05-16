@@ -1,0 +1,40 @@
+{
+  "repo": "clearharvestmarket",
+  "title": "Clear Harvest Market",
+  "tag": "Truckee Market + Backend Marketing",
+  "accent": "#34d399",
+  "accent2": "#f59e0b",
+  "hook": "A serious local-market build that blends brand story, food commerce, recipe sales, visitor messaging, and a new admin/superadmin marketing backend scaffold.",
+  "sections": [
+    [
+      "01",
+      "Core Offer",
+      "Family-brand market site for artisan bread, juice, baked goods, preorder flows, and $1 recipes."
+    ],
+    [
+      "02",
+      "Problem Solved",
+      "Moves the business beyond a basic info page into a stronger Truckee/Tahoe commerce and growth system."
+    ],
+    [
+      "03",
+      "Key Assets",
+      "Homepage, order hub, recipe shop, partner page, story page, juice page, admin backend, and lead/payment scaffolds."
+    ],
+    [
+      "04",
+      "Ideal Buyer",
+      "Truckee locals, Tahoe visitors, cabin hosts, catering buyers, and digital recipe customers."
+    ],
+    [
+      "05",
+      "Growth Path",
+      "SEO/social/video -> lead capture -> order or recipe checkout -> repeat order, upsell, and local business growth."
+    ],
+    [
+      "06",
+      "Next Expansion",
+      "Add auth, datastore, real autoposting, live CRM behavior, and more food/product-specific content."
+    ]
+  ]
+}
